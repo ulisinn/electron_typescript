@@ -1,0 +1,44 @@
+$red: #d2232a;
+
+body {
+  background-color: lightgrey;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.addStreamBtn {
+  position: relative;
+  width: 100px;
+  height: 15px;
+  padding: 5px;
+  background-color: $red;
+  color: white;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+}
+
+.addStreamInput{
+  margin-top: 10px;
+  position: relative;
+}
+.streamInput{
+  width: 250px;
+  height: 20px;
+}
+
+.addStreamInput button{
+  margin-left: 10px;
+  padding: 6px;
+}
+
+.representationList{
+  list-style: none;
+  width: 900px;
+}
+.representationCB{
+  display: inline-block;
+  width: 220px;
+}
