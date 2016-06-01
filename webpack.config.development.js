@@ -6,7 +6,7 @@ const autoprefixer = require('autoprefixer');
 var config = {
   entry: [
     'webpack-hot-middleware/client?reload=true&path=http://localhost:9000/__webpack_hmr',
-    './src/app.tsx',
+    './app/app.tsx',
   ],
   resolve: {
     extensions: ['', '.js', '.jsx', '.ts', '.tsx']
